@@ -1,0 +1,22 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+yarn.lock
+package-lock.json
+
+# Builds
+build/
+dist/
+.cache/
+.tmp/
+
+# Editors
+.vscode/
+.idea/
