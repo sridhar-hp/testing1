@@ -41,6 +41,7 @@
     if (!toggle || !nav) return;
     const open = (v) => {
       nav.classList.toggle('open', v);
+      toggle.classList.toggle('open', v);
       toggle.setAttribute('aria-expanded', String(v));
     };
     toggle.addEventListener('click', () => open(!nav.classList.contains('open')));
